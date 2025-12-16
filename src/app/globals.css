@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Базовые стили */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #ffffff;
+  color: #111111;
 }
+
+/* Кастомные компоненты */
+.gradient-purple {
+  background: linear-gradient(135deg, #7c3aed 0%, #6720ff 50%, #5b21b6 100%);
+  position: relative;
+}
+
+.gradient-purple::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.3), transparent 50%);
+  pointer-events: none;
+}
+
+.card-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.card-glass:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-4px);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* Ant Design интеграция */
+.ant-card {
+  border-radius: 16px;
+}
+
+
+/* Swiper кастомизация */
+.testimonials-swiper {
+    padding-bottom: 60px;
+  }
+  
+  .swiper-pagination-bullet-custom {
+    width: 12px;
+    height: 12px;
+    background: #4b5563;
+    opacity: 1;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet-active-custom {
+    background: #ffffff;
+    width: 32px;
+    border-radius: 6px;
+  }
+  
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    cursor: pointer;
+  }
+  
+  .swiper-button-prev-custom:hover,
+  .swiper-button-next-custom:hover {
+    transform: translateY(-50%) scale(1.1);
+  }
