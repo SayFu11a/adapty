@@ -2,13 +2,16 @@
 
 <div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge![React](https://img.shields.io/badge/React-19-61DAFB?style=for-3178C6?style=for-the-badge&logo=typescript-38B2AC?style=for-the-badge&logo=tailwinный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
+[![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+
+### 🎨 Современный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
 
 [🌐 Live Demo](https://adapty.vercel.app/) - [📖 Документация](#-установка) - [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
 
 </div>
-
----
 
 ## ✨ Особенности
 
@@ -197,7 +200,7 @@ vercel
 
 ## 👨‍💻 Автор
 
-**Khabib** - [GitHub](https://github.com/SayFu11a)
+**S** - [GitHub](https://github.com/SayFu11a)
 
 ---
 
