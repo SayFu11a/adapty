@@ -1,15 +1,14 @@
-````
 # 🚀 Adapty Clone - Платформа для роста мобильных приложений
 
 <div align="center">
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge![React](https://img.shields.io/badge/React-19-61DAFB?style=for-3178C6?style=for-the-badge&logo=typescript-38B2AC?style=for-the-badge&logo=tailwinный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
 
-[🌐 Live Demo](https://adapty.vercel.app/) -  [📖 Документация](#-установка) -  [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
+[🌐 Live Demo](https://adapty.vercel.app/) - [📖 Документация](#-установка) - [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
 
 </div>
 
-***
+---
 
 ## ✨ Особенности
 
@@ -23,7 +22,7 @@
 - 🚀 **Оптимизация изображений** - Next.js Image Optimization
 - 💨 **Быстрая загрузка** - Static Site Generation (SSG)
 
-***
+---
 
 ## 🛠️ Технологический стек
 
@@ -39,7 +38,7 @@
 | **Swiper**        | 12.0.3   | Слайдеры            |
 | **React Icons**   | 5.4.0    | Иконки              |
 
-***
+---
 
 ## 📦 Установка
 
@@ -53,7 +52,7 @@
 ```bash
 git clone https://github.com/SayFu11a/adapty.git
 cd adapty
-````
+```
 
 ### Установка зависимостей
 
@@ -219,4 +218,3 @@ Made with ❤️ and ☕
 [⬆ Наверх](#-adapty-clone---платформа-для-роста-мобильных-приложений)
 
 </div>
-```
