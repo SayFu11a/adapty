@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -89,7 +90,7 @@ export default function TestimonialsSlider() {
                   <div className="flex justify-center">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 rounded-3xl blur-2xl opacity-50"></div>
-                      <img
+                      <Image
                         src="https://adapty.io/assets/uploads/2023/12/photo-Roi-Mulia.webp"
                         alt={testimonial.name}
                         className="relative rounded-3xl w-full max-w-md h-auto shadow-2xl"
