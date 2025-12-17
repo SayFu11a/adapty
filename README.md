@@ -1,36 +1,241 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# 🚀 Adapty Clone - Платформа для роста мобильных приложений
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 🎨 Современный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
+
+[🌐 Live Demo](https://adapty.vercel.app/) • [📖 Документация](#-установка) • [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
+
+</div>
+
+---
+
+## ✨ Особенности
+
+- 🎯 **Pixel-perfect дизайн** - точное воспроизведение оригинального UI/UX
+- ⚡ **Next.js 15** с React Server Components и App Router
+- 🎨 **Tailwind CSS v4** - новейшая версия с улучшенной производительностью
+- 📊 **Интерактивные графики** - Recharts для визуализации данных
+- 🎠 **Анимации и слайдеры** - Framer Motion + Swiper
+- 🎭 **Ant Design 6** - современные UI компоненты
+- 📱 **Полностью адаптивный** - работает на всех устройствах
+- 🚀 **Оптимизация изображений** - Next.js Image Optimization
+- 💨 **Быстрая загрузка** - Static Site Generation (SSG)
+
+---
+
+## 🛠️ Технологический стек
+
+| Технология        | Версия   | Назначение          |
+| ----------------- | -------- | ------------------- |
+| **Next.js**       | 15.1.5   | React фреймворк     |
+| **React**         | 19.0.0   | UI библиотека       |
+| **TypeScript**    | 5.x      | Типизация           |
+| **Tailwind CSS**  | 4.0      | Стилизация          |
+| **Ant Design**    | 6.1.1    | UI компоненты       |
+| **Recharts**      | 3.6.0    | Графики и диаграммы |
+| **Framer Motion** | 12.23.26 | Анимации            |
+| **Swiper**        | 12.0.3   | Слайдеры            |
+| **React Icons**   | 5.4.0    | Иконки              |
+
+---
+
+## 📦 Установка
+
+### Требования
+
+- Node.js 18.x или выше
+- npm или yarn
+
+### Клонирование репозитория
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/SayFu11a/adapty.git
+cd adapty
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Установка зависимостей
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# или
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+yarn install
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Запуск в режиме разработки
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+
+npm run dev
+
+# или
+
+yarn dev
+
+```
+
+Откройте [http://localhost:3000](http://localhost:3000) в браузере.
+
+### Сборка для продакшена
+
+```
+
+npm run build
+npm start
+
+# или
+
+yarn build
+yarn start
+
+```
+
+---
+
+## 📁 Структура проекта
+
+```
+
+adapty/
+├── src/
+│ ├── app/
+│ │ ├── AntdProvider.tsx # Провайдер Ant Design
+│ │ ├── favicon.ico # Иконка сайта
+│ │ ├── globals.css # Глобальные стили
+│ │ ├── layout.tsx # Корневой Layout
+│ │ └── page.tsx # Главная страница
+│ └── components/
+│ ├── Hero.tsx # Героическая секция
+│ ├── SDKPlatforms.tsx # Платформы SDK
+│ ├── SDKSection.tsx # Секция SDK
+│ ├── ABTestingSection.tsx # A/B тестирование
+│ ├── RefundSaverSection.tsx # График возвратов
+│ └── TestimonialsSlider.tsx # Слайдер отзывов
+├── public/ # Статические файлы
+├── .gitignore
+├── eslint.config.mjs # Конфигурация ESLint
+├── next.config.ts # Конфигурация Next.js
+├── package.json
+├── postcss.config.mjs # Конфигурация PostCSS
+├── tailwind.config.ts # Конфигурация Tailwind
+├── tsconfig.json # Конфигурация TypeScript
+└── README.md
+
+```
+
+---
+
+## 🎨 Компоненты
+
+### Hero Section
+Главная секция с градиентным заголовком и анимированными изображениями.
+
+### SDK Platforms
+Отображение поддерживаемых платформ (iOS, Android, React Native и др.).
+
+### A/B Testing Section
+Интерактивная демонстрация A/B тестирования с моками телефонов.
+
+### Refund Saver Section
+График снижения процента возвратов с использованием Recharts.
+
+### Testimonials Slider
+Карусель отзывов клиентов с автопрокруткой.
+
+---
+
+## 🚀 Деплой
+
+Проект автоматически деплоится на [Vercel](https://vercel.com) при каждом push в main ветку.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SayFu11a/adapty)
+
+### Ручной деплой
+
+```
+
+npm install -g vercel
+vercel
+
+```
+
+---
+
+## 📝 Скрипты
+
+| Команда | Описание |
+|---------|----------|
+| `npm run dev` | Запуск dev сервера с Turbopack |
+| `npm run build` | Сборка для продакшена |
+| `npm start` | Запуск production сервера |
+| `npm run lint` | Проверка кода с ESLint |
+
+---
+
+## 🎯 Roadmap
+
+- [ ] Добавить Header и Footer
+- [ ] Добавить темную тему
+- [ ] Добавить больше анимаций
+- [ ] Интернационализация (i18n)
+- [ ] Добавить страницу документации
+- [ ] SEO оптимизация
+- [ ] Аналитика (Google Analytics)
+
+---
+
+## 🤝 Вклад в проект
+
+Вклад в проект приветствуется! Пожалуйста:
+
+1. Форкните репозиторий
+2. Создайте feature ветку (`git checkout -b feature/AmazingFeature`)
+3. Закоммитьте изменения (`git commit -m 'Add some AmazingFeature'`)
+4. Запуште в ветку (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
+
+---
+
+## 📄 Лицензия
+
+Этот проект создан в образовательных целях. Оригинальный дизайн принадлежит [Adapty.io](https://adapty.io).
+
+---
+
+## 👨‍💻 Автор
+
+**Khabib** - [GitHub](https://github.com/SayFu11a)
+
+---
+
+## 🙏 Благодарности
+
+- [Adapty.io](https://adapty.io) за вдохновляющий дизайн
+- [Vercel](https://vercel.com) за хостинг
+- [Next.js](https://nextjs.org) команда за фреймворк
+
+---
+
+<div align="center">
+
+⭐ Поставьте звезду, если проект был полезен!
+
+Made with ❤️ and ☕
+
+[⬆ Наверх](#-adapty-clone---платформа-для-роста-мобильных-приложений)
+
+</div>
+```
+
+---
