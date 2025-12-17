@@ -1,20 +1,15 @@
-```markdown
+````
 # 🚀 Adapty Clone - Платформа для роста мобильных приложений
 
 <div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.1.5-black?style=for-the-badge![React](https://img.shields.io/badge/React-19-61DAFB?style=for-3178C6?style=for-the-badge&logo=typescript-38B2AC?style=for-the-badge&logo=tailwinный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
 
-### 🎨 Современный клон сайта [Adapty.io](https://adapty.io) с использованием новейших технологий
-
-[🌐 Live Demo](https://adapty.vercel.app/) • [📖 Документация](#-установка) • [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
+[🌐 Live Demo](https://adapty.vercel.app/) -  [📖 Документация](#-установка) -  [🐛 Репорт бага](https://github.com/SayFu11a/adapty/issues)
 
 </div>
 
----
+***
 
 ## ✨ Особенности
 
@@ -28,7 +23,7 @@
 - 🚀 **Оптимизация изображений** - Next.js Image Optimization
 - 💨 **Быстрая загрузка** - Static Site Generation (SSG)
 
----
+***
 
 ## 🛠️ Технологический стек
 
@@ -44,7 +39,7 @@
 | **Swiper**        | 12.0.3   | Слайдеры            |
 | **React Icons**   | 5.4.0    | Иконки              |
 
----
+***
 
 ## 📦 Установка
 
@@ -54,51 +49,38 @@
 - npm или yarn
 
 ### Клонирование репозитория
-```
 
+```bash
 git clone https://github.com/SayFu11a/adapty.git
 cd adapty
-
-```
+````
 
 ### Установка зависимостей
 
-```
-
+```bash
 npm install
-
 # или
-
 yarn install
-
 ```
 
 ### Запуск в режиме разработки
 
-```
-
+```bash
 npm run dev
-
 # или
-
 yarn dev
-
 ```
 
 Откройте [http://localhost:3000](http://localhost:3000) в браузере.
 
 ### Сборка для продакшена
 
-```
-
+```bash
 npm run build
 npm start
-
 # или
-
 yarn build
 yarn start
-
 ```
 
 ---
@@ -106,32 +88,30 @@ yarn start
 ## 📁 Структура проекта
 
 ```
-
 adapty/
 ├── src/
-│ ├── app/
-│ │ ├── AntdProvider.tsx # Провайдер Ant Design
-│ │ ├── favicon.ico # Иконка сайта
-│ │ ├── globals.css # Глобальные стили
-│ │ ├── layout.tsx # Корневой Layout
-│ │ └── page.tsx # Главная страница
-│ └── components/
-│ ├── Hero.tsx # Героическая секция
-│ ├── SDKPlatforms.tsx # Платформы SDK
-│ ├── SDKSection.tsx # Секция SDK
-│ ├── ABTestingSection.tsx # A/B тестирование
-│ ├── RefundSaverSection.tsx # График возвратов
-│ └── TestimonialsSlider.tsx # Слайдер отзывов
-├── public/ # Статические файлы
+│   ├── app/
+│   │   ├── AntdProvider.tsx      # Провайдер Ant Design
+│   │   ├── favicon.ico           # Иконка сайта
+│   │   ├── globals.css           # Глобальные стили
+│   │   ├── layout.tsx            # Корневой Layout
+│   │   └── page.tsx              # Главная страница
+│   └── components/
+│       ├── Hero.tsx              # Героическая секция
+│       ├── SDKPlatforms.tsx      # Платформы SDK
+│       ├── SDKSection.tsx        # Секция SDK
+│       ├── ABTestingSection.tsx  # A/B тестирование
+│       ├── RefundSaverSection.tsx # График возвратов
+│       └── TestimonialsSlider.tsx # Слайдер отзывов
+├── public/                       # Статические файлы
 ├── .gitignore
-├── eslint.config.mjs # Конфигурация ESLint
-├── next.config.ts # Конфигурация Next.js
+├── eslint.config.mjs             # Конфигурация ESLint
+├── next.config.ts                # Конфигурация Next.js
 ├── package.json
-├── postcss.config.mjs # Конфигурация PostCSS
-├── tailwind.config.ts # Конфигурация Tailwind
-├── tsconfig.json # Конфигурация TypeScript
+├── postcss.config.mjs            # Конфигурация PostCSS
+├── tailwind.config.ts            # Конфигурация Tailwind
+├── tsconfig.json                 # Конфигурация TypeScript
 └── README.md
-
 ```
 
 ---
@@ -139,18 +119,23 @@ adapty/
 ## 🎨 Компоненты
 
 ### Hero Section
+
 Главная секция с градиентным заголовком и анимированными изображениями.
 
 ### SDK Platforms
+
 Отображение поддерживаемых платформ (iOS, Android, React Native и др.).
 
 ### A/B Testing Section
+
 Интерактивная демонстрация A/B тестирования с моками телефонов.
 
 ### Refund Saver Section
+
 График снижения процента возвратов с использованием Recharts.
 
 ### Testimonials Slider
+
 Карусель отзывов клиентов с автопрокруткой.
 
 ---
@@ -159,27 +144,25 @@ adapty/
 
 Проект автоматически деплоится на [Vercel](https://vercel.com) при каждом push в main ветку.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SayFu11a/adapty)
+[
 
 ### Ручной деплой
 
-```
-
+```bash
 npm install -g vercel
 vercel
-
 ```
 
 ---
 
 ## 📝 Скрипты
 
-| Команда | Описание |
-|---------|----------|
-| `npm run dev` | Запуск dev сервера с Turbopack |
-| `npm run build` | Сборка для продакшена |
-| `npm start` | Запуск production сервера |
-| `npm run lint` | Проверка кода с ESLint |
+| Команда         | Описание                       |
+| --------------- | ------------------------------ |
+| `npm run dev`   | Запуск dev сервера с Turbopack |
+| `npm run build` | Сборка для продакшена          |
+| `npm start`     | Запуск production сервера      |
+| `npm run lint`  | Проверка кода с ESLint         |
 
 ---
 
@@ -237,5 +220,3 @@ Made with ❤️ and ☕
 
 </div>
 ```
-
----
