@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { FiArrowRight, FiStar } from "react-icons/fi";
 
 export default function ABTestingSection() {

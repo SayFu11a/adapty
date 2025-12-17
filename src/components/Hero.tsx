@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <>
@@ -50,14 +52,14 @@ export default function Hero() {
             {/* ПРАВАЯ КОЛОНКА - картинки */}
             <div className="relative h-[450px] lg:h-[600px] w-full">
               {/* График сзади */}
-              <img
+              <Image
                 src="https://adapty.io/assets/uploads/2025/02/adapty-overview@2x.webp"
                 alt="Dashboard"
                 className="absolute top-1/2 right-0 -translate-y-1/2 w-full max-w-[600px] h-auto object-contain"
               />
 
               {/* Телефон спереди */}
-              <img
+              <Image
                 src="https://adapty.io/assets/uploads/2025/02/adapty-paywall-demo-preview@2x.webp"
                 alt="Phone"
                 className="absolute top-1/2 left-0 -translate-y-1/2 w-[280px] sm:w-[320px] h-auto z-10"
